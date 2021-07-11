@@ -9,5 +9,5 @@ A-9,
 B-8, 
 C-7, 
 D-6, 
-E-5, 
+E-5. 
 OUTPUT : The Grade point average for the grades of all subjects with be printed.
