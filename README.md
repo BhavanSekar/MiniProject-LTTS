@@ -1,6 +1,6 @@
 Grade Point Average calculator
 
-The makefile generates an executable of the two .c files containing the code for the project.
+The makefile generates an executable of the two .c files containing the code for the project: variables.c and main.c. The test file runs with the command on the description on the file with the variables.c file. 
 
 INPUT FORMAT: Enter the grade followed by the number of credits of that subject iteratively for all the subjects.
 LIST OF GRADES AND CORRESPONDING NUMBERS : 
