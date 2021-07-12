@@ -4,7 +4,7 @@
 
 [![Unit Testing - Unity](https://github.com/BhavanSekar/MiniProject-LTTS/actions/workflows/UnitTesting.yml/badge.svg)](https://github.com/BhavanSekar/MiniProject-LTTS/actions/workflows/UnitTesting.yml)
 
-[![Buildandtest](https://github.com/BhavanSekar/MiniProject-LTTS/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/BhavanSekar/MiniProject-LTTS/actions/workflows/c-cpp.yml)
+[![C/C++ CI](https://github.com/BhavanSekar/MiniProject-LTTS/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/BhavanSekar/MiniProject-LTTS/actions/workflows/c-cpp.yml)
 
 
 
