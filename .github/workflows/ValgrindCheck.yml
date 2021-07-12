@@ -20,4 +20,5 @@ jobs:
     - name: make grade
       run: |
         make run -C /
+        chmod a+x ./file
         valgrind ./grade
