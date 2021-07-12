@@ -20,6 +20,6 @@ jobs:
     - name: make grade
       run: |
         make run -C /
-        gcc -Wall main.c Variables.c -o grade
+        gcc -Wall main.c Variables.c -o grade.out
         valgrind ./grade.out
 
