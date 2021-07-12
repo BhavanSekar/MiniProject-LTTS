@@ -1,5 +1,5 @@
-#DESIGN PROCESS
+# DESIGN PROCESS
 
-##High Level Design
+## High Level Design
 
 ![HLD](https://github.com/BhavanSekar/MiniProject-LTTS/blob/master/Images%26PDFs/HLD.png)
