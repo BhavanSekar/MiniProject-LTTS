@@ -20,5 +20,4 @@ jobs:
     - name: make test
       run: |
         make run -C /
-        chmod a+x ./grade.exe
         valgrind ./grade.exe
