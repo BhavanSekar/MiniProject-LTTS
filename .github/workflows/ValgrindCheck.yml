@@ -20,4 +20,4 @@ jobs:
     - name: make test
       run: |
         make run -C /
-        valgrind ./grade.out
+        valgrind ./grade.exe
