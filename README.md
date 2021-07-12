@@ -8,3 +8,5 @@
 
 [![Valgrind_Check](https://github.com/BhavanSekar/MiniProject-LTTS/actions/workflows/ValgrindCheck.yml/badge.svg)](https://github.com/BhavanSekar/MiniProject-LTTS/actions/workflows/ValgrindCheck.yml)
 
+[![cppcheck-action](https://github.com/BhavanSekar/MiniProject-LTTS/actions/workflows/cppcheck-action.yml/badge.svg)](https://github.com/BhavanSekar/MiniProject-LTTS/actions/workflows/cppcheck-action.yml)
+
