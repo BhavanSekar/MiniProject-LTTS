@@ -15,4 +15,3 @@ jobs:
     - uses: actions/checkout@v2
     - name: make coverage
       run: make coverage -C Implementation/
-      run: make distcheck
