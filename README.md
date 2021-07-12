@@ -6,5 +6,5 @@
 
 [![Buildandtest](https://github.com/BhavanSekar/MiniProject-LTTS/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/BhavanSekar/MiniProject-LTTS/actions/workflows/c-cpp.yml)
 
-
+[![Valgrind_Check](https://github.com/BhavanSekar/MiniProject-LTTS/actions/workflows/ValgrindCheck.yml/badge.svg)](https://github.com/BhavanSekar/MiniProject-LTTS/actions/workflows/ValgrindCheck.yml)
 
