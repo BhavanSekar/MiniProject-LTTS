@@ -13,5 +13,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: make coverage
-      run: make coverage -C /
+    - name: make cov
+      run: make cov -C /
