@@ -1,3 +1,5 @@
-https://www.code-inspector.com/project/24981/score/svg
+![Code quality score](https://www.code-inspector.com/project/24981/score/svg)
 
-https://www.code-inspector.com/project/24981/status/svg
+![Code grade](https://www.code-inspector.com/project/24981/status/svg)
+
+
