@@ -14,7 +14,6 @@
                 ch = getchar();
                 grade[i] = ch;
                 scanf("%f", &credit[i]);
-                getchar();
         }
 
         /* print the input grades and credits */
