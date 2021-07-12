@@ -1,3 +1,4 @@
+  
 #include <stdio.h>
   #include <stdlib.h>
   #include <string.h>
@@ -63,5 +64,7 @@
         printf("GPA: %f\tcredit: %f\n", gpa, totCredit);
         gpa = gpa / totCredit;
         printf("GPA for your score: %.2f\n", gpa);
+        return 0;
+  }
         return 0;
   }
