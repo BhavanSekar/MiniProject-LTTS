@@ -12,6 +12,6 @@ D-6,
 E-5. 
 OUTPUT : The Grade point average for the grades of all subjects with be printed.
 
-CODE QUALITYhttps://www.code-inspector.com/project/24981/score/svg
+CODE QUALITY https://www.code-inspector.com/project/24981/score/svg
 
 CODE GRADE https://www.code-inspector.com/project/24981/status/svg
