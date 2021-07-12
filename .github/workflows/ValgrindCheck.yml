@@ -20,5 +20,5 @@ jobs:
     - name: make grade
       run: |
         make run -C /
-        valgrind ./grade
+        valgrind .grade
 
