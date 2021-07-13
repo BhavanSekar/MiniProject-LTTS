@@ -35,6 +35,7 @@ Download the makefile, Variables.c file and the main.c file and run the followin
 
 ```bash
 make
+grade
 ```
   
   
