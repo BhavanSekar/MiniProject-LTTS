@@ -29,4 +29,12 @@ The GPA calculator takes the grades scored by the student in each subject and th
 
 **The grade point average is the weighted averaage of the grades with the credits as the weights.**
 
+## How to run
+
+Download the makefile, Variables.c file and the main.c file and run the following command in the bash(cmd or terminal with gcc installed). Ensure that the variables.c file is added to the path.
+
+<bash><make>
+  
+  
+
 
