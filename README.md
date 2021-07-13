@@ -33,9 +33,17 @@ The GPA calculator takes the grades scored by the student in each subject and th
 
 Download the makefile, Variables.c file and the main.c file and run the following command in the bash(cmd or terminal with gcc installed). Ensure that the variables.c file is added to the path.
 
+**For windows**
+
 ```bash
 make
 grade
+```
+**For linux**
+
+```bash
+make
+./grade.out
 ```
   
   
