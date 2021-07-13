@@ -18,14 +18,14 @@ The GPA calculator takes grades of the each subjects and the number of credits f
 
 ## List of gade points
 
-| Grades | Points |
- -------- -------- 
-| S |       10   |
-| A |       9    |
-| B |       8    |
-| C |       7    |
-| D |       6    |
-| E |       5    |
+| Grades | Points  |
+| -------| ------- | 
+| S      |   10    |
+| A      |    9    |
+| B      |    8    |
+| C      |    7    |
+| D      |    6    |
+| E      |    5    |
 
 
 
