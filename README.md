@@ -12,9 +12,9 @@
 
 [![cppcheck-action](https://github.com/BhavanSekar/MiniProject-LTTS/actions/workflows/cppcheck-action.yml/badge.svg)](https://github.com/BhavanSekar/MiniProject-LTTS/actions/workflows/cppcheck-action.yml)
 
-## How to use
+## About the application
 
-The GPA calculator takes grades of the each subjects and the number of credits for which each subject was registered and calculates the GPA(Grade point average.
+The GPA calculator takes the grades scored by the student in each subject and the number of credits for which each subject was registered as input, and calculates the GPA(Grade point average).
 
 ## List of grade points corresponding to grades
 
