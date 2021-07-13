@@ -45,6 +45,16 @@ grade
 make
 ./grade.out
 ```
+
+## Folder Structure
+
+| Folder Name | Description |
+--------------|--------------
+| 1_Requirements | Files elaborating Requirements and Research done |
+| 2_Design | Files elaborating the Design of the application |
+| 3_Implementation | Files containing source code and relevant documentation |
+| 4_Test_Plan | Files elaborating the test plan |
+| 5_Unit_Testing | Files containing test executables(.c and makefile) |
   
   
 
