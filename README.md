@@ -54,7 +54,7 @@ make
 | 2_Design | Files elaborating the Design of the application |
 | 3_Implementation | Files containing source code and relevant documentation |
 | 4_Test_Plan | Files elaborating the test plan |
-| 5_Unit_Testing | Files containing test executables(.c and makefile) |
+| 5_unit_Testing | Files containing test executables(.c and makefile) |
   
   
 
