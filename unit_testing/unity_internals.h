@@ -3,7 +3,7 @@
     Copyright (c) 2007-21 Mike Karlesky, Mark VanderVoord, Greg Williams
     [Released under MIT License. Please refer to license.txt for details]
 ========================================== */
-
+///
 #ifndef UNITY_INTERNALS_H
 #define UNITY_INTERNALS_H
 
@@ -1051,3 +1051,4 @@ int UnityTestMatches(void);
 
 /* End of UNITY_INTERNALS_H */
 #endif
+///
