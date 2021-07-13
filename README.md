@@ -16,10 +16,10 @@
 
 The GPA calculator takes grades of the each subjects and the number of credits for which each subject was registered and calculates the GPA(Grade point average.
 
-## List of gade points
+## List of grade points corresponding to grades
 
 | Grades | Points  |
-| -------| ------- | 
+| ------ | ------- | 
 | S      |   10    |
 | A      |    9    |
 | B      |    8    |
@@ -27,5 +27,6 @@ The GPA calculator takes grades of the each subjects and the number of credits f
 | D      |    6    |
 | E      |    5    |
 
+**The grade point average is the weighted averaage of the grades with the credits as the weights.**
 
 
