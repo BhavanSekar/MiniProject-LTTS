@@ -1,69 +1,28 @@
-///
-#include <stdio.h>
-  #include <stdlib.h>
-  #include <string.h>
-  #include"Variables.c"
 
-  int main() {
-        gpa = 0.0; 
-        totCredit = 0.0;
+void loop() {
+  // Temperature analysis
+int tempReading = analogRead(temperature);
+// If using 5v input
+float voltage = tempReading * 5.0; 
+// Divided by 1024
+voltage /= 1024.0;
+//Converting from 10mv per degree
+float tempC = (voltage - 0.5) * 100;
+	
+// This maps temperature to degrees open for the flap
+int position = map(tempC, 10, 50, 0, 180);<br>
+}
+if(previousPosition != position){
+	Serial.print("New position: ");
+	Serial.println(position);
+		
+	mainServo.write(position);
+	digitalWrite(ledIndicator, HIGH);
+	// Wait for the servo to move
+	delay(2000);
+}
 
-        /* get the letter grade and credits from the user */
-        printf("Letter Grade and Credits for each subject:\n");
-        for (i = 0; i < 5; i++) {
-                printf("Subject %d(Grade|Credit):", i + 1);
-                ch = getchar();
-                grade[i] = ch;
-                scanf("%f", &credit[i]);
-        }
-
-        /* print the input grades and credits */
-        printf("\nSubject | Grade | Credit\n");
-        for (i = 0; i < 5; i++) {
-                printf("   %d    |  %c    | %.0f\n", i + 1, grade[i], credit[i]);
-        }
-
-        /* calculate gpa value */
-        for (i = 0; i < 5; i++) {
-                switch (grade[i]) {
-                        case 'S':
-                                gpa = gpa + 10 * credit[i];
-                                totCredit = totCredit + credit[i];
-                                break;
-                        case 'A':
-                                gpa = gpa + 9 * credit[i];
-                                totCredit = totCredit + credit[i];
-                                break;
-
-                        case 'B':
-                                gpa = gpa + 8 * credit[i];
-                                totCredit = totCredit + credit[i];
-                                break;
-
-                        case 'C':
-                                gpa = gpa + 7 * credit[i];
-                                totCredit = totCredit + credit[i];
-                                break;
-
-                        case 'D':
-                                gpa = gpa + 6 * credit[i];
-                                totCredit = totCredit + credit[i];
-                                break;
-
-                        case 'E':
-                                gpa = gpa + 5 * credit[i];
-                                totCredit = totCredit + credit[i];
-                                break;
-
-                        default:
-                                printf("Given Wrong grade!!\n");
-                                exit(0);
-
-                }
-        }
-        printf("GPA: %f\tcredit: %f\n", gpa, totCredit);
-        gpa = gpa / totCredit;
-        printf("GPA for your score: %.2f\n", gpa);
-        return 0;
-  }
-///
+// Turn off the indicator light
+digitalWrite(ledIndicator, LOW);
+// set previousPosition so if we don't have to change, we don't fire the servo
+previousPosition = position;
