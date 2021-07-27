@@ -1,4 +1,4 @@
-# GPA CALCULATOR
+# HEAT REGULATOR
 
 ![Code quality score](https://www.code-inspector.com/project/24981/score/svg)
 
@@ -14,20 +14,7 @@
 
 ## About the application
 
-The GPA calculator takes the grades scored by the student in each subject and the number of credits for which each subject was registered as input, and calculates the GPA(Grade point average).
-
-## List of grade points corresponding to grades
-
-| Grades | Points  |
-| ------ | ------- | 
-| S      |   10    |
-| A      |    9    |
-| B      |    8    |
-| C      |    7    |
-| D      |    6    |
-| E      |    5    |
-
-**The grade point average is the weighted averaage of the grades with the credits as the weights.**
+The Heat regulator takes the input from the temperature sensor, regulates the temperature accordingly and controls the PWM signal accordingly. It also uses an LED to display the real time value.
 
 ## How to run
 
