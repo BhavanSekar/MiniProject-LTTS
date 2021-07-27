@@ -2,7 +2,7 @@
 
 ## High Level Design
 
-![HLD](https://github.com/BhavanSekar/MiniProject-LTTS/blob/master/Images%26PDFs/HLD.png)
+![HLD](https://github.com/BhavanSekar/MiniProject-LTTS/blob/master/Images%26PDFs/Embed.PNG)
 
 
 ## Low Level Design
